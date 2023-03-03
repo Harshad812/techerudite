@@ -59,7 +59,9 @@
 
 .link-section {
   display: flex;
-  justify-content: space-between;
+  padding-top: 12px;
+  text-decoration: underline;
+  justify-content: center;
 }
 .link-section button {
   border: none;

@@ -124,7 +124,6 @@ export const Signup = () => {
                 <button onClick={() => navigate(RoutesMapping.Signin)}>
                   Signin
                 </button>
-                <button>Forgate Password</button>
               </div>
             </div>
           </div>
