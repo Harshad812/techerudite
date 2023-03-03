@@ -1,0 +1,111 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  background-color: #dfffd8;
+  /* min-height: 500px; */
+  width: 350px;
+  border-radius: 32px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  padding-block: 72px;
+  padding-inline: 16px;
+  gap: 32px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.submit-button {
+  padding-inline: 32px;
+  padding-block: 18px;
+  background-color: #0f6292;
+  border-radius: 18px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.submit-button:hover {
+  background-color: #362fd9;
+}
+
+.link-section {
+  display: flex;
+  justify-content: space-between;
+}
+.link-section button {
+  border: none;
+  background: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.comment-section textarea {
+  border: none;
+  outline: none;
+  min-height: 72px;
+  border-radius: 12px;
+  padding-top: 32px;
+  padding-inline: 8px;
+}
+
+.comment-section span {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-weight: 600;
+}
+
+.gender-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #ffffff;
+  padding-inline: 8px;
+  padding-block: 8px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 8px;
+}
+.radio-button {
+  display: flex;
+  gap: 2px;
+}
