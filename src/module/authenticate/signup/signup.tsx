@@ -16,9 +16,11 @@ export const Signup = () => {
   const userRole = useMemo(() => {
     const path = location.pathname.split("/").slice(-1).join();
     if (path.length) {
+      if (path === "signup") return "customer";
       return path;
     }
-    return "admin";
+
+    return "customer";
   }, [location.pathname]);
 
   const initialValues: UserDetailPayload = {

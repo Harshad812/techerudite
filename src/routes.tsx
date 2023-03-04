@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Home, Signin, Signup } from "./module";
+import { Home, PageNotFound, Signin, Signup } from "./module";
 
 export const RoutesMapping = {
   Home: "/home",
@@ -10,7 +10,7 @@ export const RoutesMapping = {
 export const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="*" element={<Signup />} />
+      <Route path="*" element={<PageNotFound />} />
       <Route path="/" element={<Signup />} />
       <Route path="/home" element={<Home />} />
       <Route path="/Signin" element={<Signin />} />
